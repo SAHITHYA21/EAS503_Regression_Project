@@ -1,13 +1,52 @@
-# EAS503_Regression_Project
+# EAS503 Regression Project
 
-![image](https://github.com/SAHITHYA21/EAS503_Regression_Project/assets/48857403/2a9e6fad-dede-463f-8a7e-8864bc708706)
+![Project Banner](https://github.com/SAHITHYA21/EAS503_Regression_Project/assets/48857403/2a9e6fad-dede-463f-8a7e-8864bc708706)
 
-Built a system to predict the price of a property based on its properties like number of bedrooms, bathrooms, floors, city etc..
+## Overview
+This project focuses on building a system to predict property prices based on various attributes such as the number of bedrooms, bathrooms, floors, and the city. The system involves data normalization, preprocessing, model training, optimization, and deployment as a user-friendly Streamlit application.
 
-● Normalizing data: Created a normalized database from the raw data file and loaded the data into SQLite3.
-● Data Preprocessing: Removing unwanted data and imputing. Created profile report for training data analysis. Implemented one-hot encoding for categorical values. Utilized seaborn and matplotlib for creating plots.
-● Model Training and Optimization: Trained models like Linear Regression, Ridge, Lasso, Decision tree, Random forest etc.. Registered all experiments and models in MLFlow on Dagshub. Performed PCA to generate new features.
-● Model Deployment: Choose the best model and created a Docker image for deployment on Digital Ocean.
-● Streamlit app: Developed a Streamlit app that interfaces with the deployed model.Built a system to predict the price of a property based on its properties like number of bedrooms, bathrooms, floors, city etc.. ● Normalizing data: Created a normalized database from the raw data file and loaded the data into SQLite3. ● Data Preprocessing: Removing unwanted data and imputing. Created profile report for training data analysis. Implemented one-hot encoding for categorical values. Utilized seaborn and matplotlib for creating plots. ● Model Training and Optimization: Trained models like Linear Regression, Ridge, Lasso, Decision tree, Random forest etc.. Registered all experiments and models in MLFlow on Dagshub. Performed PCA to generate new features. ● Model Deployment: Choose the best model and created a Docker image for deployment on Digital Ocean. ● Streamlit app: Developed a Streamlit app that interfaces with the deployed model.
-Skills: Python (Programming Language) · SQLite3 · Pandas · Seaborn · Matplotlib · MLflow · DigitalOcean · Streamlit · GitHub
+## Key Features
 
+### 1. Normalizing Data
+- Created a normalized database from the raw data file.
+- Loaded the normalized data into SQLite3 for efficient data storage and retrieval.
+
+### 2. Data Preprocessing
+- Removed unwanted data and handled missing values using imputation techniques.
+- Generated a profile report for training data analysis.
+- Applied one-hot encoding for categorical variables.
+- Used `seaborn` and `matplotlib` for visualizing data insights through plots.
+
+### 3. Model Training and Optimization
+- Trained and evaluated multiple models, including:
+  - Linear Regression
+  - Ridge Regression
+  - Lasso Regression
+  - Decision Tree
+  - Random Forest
+- Registered all experiments and models in MLFlow on Dagshub.
+- Performed Principal Component Analysis (PCA) to generate new features for improving model performance.
+
+### 4. Model Deployment
+- Selected the best-performing model.
+- Created a Docker image for deployment.
+- Deployed the model on DigitalOcean.
+
+### 5. Streamlit App
+- Developed a user-friendly Streamlit application that interfaces with the deployed model.
+- The app allows users to input property details and predict property prices in real time.
+
+## Skills and Tools
+- **Programming**: Python
+- **Database**: SQLite3
+- **Data Analysis**: Pandas, Seaborn, Matplotlib
+- **Model Management**: MLFlow, Dagshub
+- **Deployment**: Docker, DigitalOcean
+- **User Interface**: Streamlit
+- **Version Control**: GitHub
+
+## How to Run
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/SAHITHYA21/EAS503_Regression_Project.git
+   cd EAS503_Regression_Project
